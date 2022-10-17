@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+<test name="IT">
+<parameter name="website" value="https://www.ebay.com/"></parameter>
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="testNG.EbayTest"></class>
+</classes>
+</test>
+</suite>

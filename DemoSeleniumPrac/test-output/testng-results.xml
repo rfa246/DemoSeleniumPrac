@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-16T22:04:39 EDT" name="Regression" finished-at="2022-10-16T22:04:51 EDT" duration-ms="12082">
+    <groups>
+    </groups>
+    <test started-at="2022-10-16T22:04:39 EDT" name="IT" finished-at="2022-10-16T22:04:51 EDT" duration-ms="12082">
+      <class name="testNG.EbayTest">
+        <test-method is-config="true" signature="Ibrowsers(java.lang.String,java.lang.String)[pri:0, instance:testNG.EbayTest@25641d39]" started-at="2022-10-16T22:04:39 EDT" name="Ibrowsers" finished-at="2022-10-16T22:04:47 EDT" duration-ms="8067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ibrowsers -->
+        <test-method signature="f()[pri:0, instance:testNG.EbayTest@25641d39]" started-at="2022-10-16T22:04:47 EDT" name="f" finished-at="2022-10-16T22:04:51 EDT" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNG.EbayTest -->
+    </test> <!-- IT -->
+  </suite> <!-- Regression -->
+</testng-results>
